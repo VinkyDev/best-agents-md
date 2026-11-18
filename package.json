@@ -1,0 +1,34 @@
+{
+  "name": "best-agents-md",
+  "version": "0.1.0",
+  "description": "All you need for general coding in AGENTS.md: the shortest coding standard for AI agents.",
+  "type": "module",
+  "bin": {
+    "best-agents-md": "./bin/cli.js"
+  },
+  "exports": {
+    "./AGENTS.md": "./AGENTS.md"
+  },
+  "files": [
+    "AGENTS.md",
+    "AGENTS.zh.md",
+    "README.zh-CN.md",
+    "assets/icon.svg",
+    "bin/cli.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "agents",
+    "agents-md",
+    "ai-coding",
+    "coding-standards",
+    "testing-standards",
+    "llm"
+  ],
+  "license": "MIT"
+}

@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#c026d3"/>
-  <text x="32" y="32" dy="0.35em" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#ffffff">BA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="28" fill="#0B0B0F"/>
+  <g stroke="#FFFFFF" stroke-width="8" stroke-linecap="round">
+    <path d="M42 34 36 94M66 34 60 94M24 52h50M22 76h50"/>
+  </g>
+  <rect x="84" y="82" width="22" height="12" rx="2" fill="#FF6A3D"/>
 </svg>
