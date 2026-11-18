@@ -1,10 +1,14 @@
 {
   "name": "best-agents-md",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All you need for general coding in AGENTS.md: the shortest coding standard for AI agents.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinkyDev/best-agents-md.git"
+  },
   "bin": {
-    "best-agents-md": "./bin/cli.js"
+    "best-agents-md": "bin/cli.js"
   },
   "exports": {
     "./AGENTS.md": "./AGENTS.md"
