@@ -12,7 +12,9 @@ English | [简体中文](README.zh-CN.md)
 
 ## About
 
-best-agents-md is a short coding standard for your `AGENTS.md` that helps agents write less code, cleaner code, and more valuable tests. It covers coding rules, testing standards, and a bug-fix workflow, and works with any language and any agent that reads `AGENTS.md`, such as Codex and Claude Code.
+best-agents-md is a short coding standard for your `AGENTS.md` that helps agents write less code, cleaner code, and more valuable tests. It covers general coding rules, testing standards, a bug-fix workflow, and verification habits, and works with any language and any agent that reads `AGENTS.md`, such as Codex and Claude Code.
+
+Keep project-specific details—such as build and test commands, architectural boundaries, and local conventions—outside the managed block so this standard stays focused on general engineering behavior.
 
 We aim to be the shortest coding prompt with the biggest impact, and to keep evolving with new models and community feedback so it always reflects current best practices.
 
