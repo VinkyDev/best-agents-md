@@ -20,7 +20,9 @@ best-agents-md 是一份放进 `AGENTS.md` 的简短代码规范，让 Agent 写
 
 ## 使用
 
-### 1. 通过 CLI 写入 `AGENTS.md`
+以下三种方式任选其一即可：
+
+### 方式一：通过 CLI 写入 `AGENTS.md`
 
 在项目目录中运行（需要 Node.js 18 或更高版本）：
 
@@ -30,11 +32,11 @@ npx best-agents-md
 
 它会把规范以带标记的区块写入 `AGENTS.md`，不改动文件中的其他内容。再次运行即可更新到最新版本。
 
-### 2. 手动复制到 `AGENTS.md`
+### 方式二：手动复制到 `AGENTS.md`
 
 直接将 [AGENTS.md](AGENTS.md) 手动复制到项目的 `AGENTS.md` 中。
 
-### 3. 以 Skill 形式安装
+### 方式三：以 Skill 形式安装
 
 使用 [skills](https://skills.sh) CLI 安装：
 

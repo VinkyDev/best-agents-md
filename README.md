@@ -20,7 +20,9 @@ We aim to be the shortest coding prompt with the biggest impact, and to keep evo
 
 ## Usage
 
-### 1. Install into `AGENTS.md` via CLI
+Choose one of the following options:
+
+### Option 1: Install into `AGENTS.md` via CLI
 
 Run this in your project directory with Node.js 18 or later:
 
@@ -30,11 +32,11 @@ npx best-agents-md
 
 It adds the standard to `AGENTS.md` in a marked block and leaves the rest of the file untouched. Run it again to update to the latest version.
 
-### 2. Copy into `AGENTS.md` manually
+### Option 2: Copy into `AGENTS.md` manually
 
 Copy [AGENTS.md](AGENTS.md) into your project's `AGENTS.md` by hand.
 
-### 3. Install as an Agent Skill
+### Option 3: Install as an Agent Skill
 
 Install with the [skills](https://skills.sh) CLI:
 
