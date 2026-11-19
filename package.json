@@ -18,7 +18,8 @@
     "AGENTS.zh.md",
     "README.zh-CN.md",
     "assets/icon.svg",
-    "bin/cli.js"
+    "bin/cli.js",
+    "skills"
   ],
   "scripts": {
     "test": "node --test"

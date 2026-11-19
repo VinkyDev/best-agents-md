@@ -96,3 +96,13 @@ test("shows help and rejects unknown options without creating AGENTS.md", () => 
     assert.equal(existsSync(target), false);
   });
 });
+
+test("ships a SKILL.md whose frontmatter is valid and body stays in sync with AGENTS.md", () => {
+  const skill = readFileSync(new URL("../skills/coding-standard/SKILL.md", import.meta.url), "utf8");
+  const match = skill.match(/^---\n([\s\S]*?)\n---\n\n([\s\S]*)$/);
+  assert.ok(match, "SKILL.md should start with YAML frontmatter followed by a blank line");
+  const [, frontmatter, body] = match;
+  assert.match(frontmatter, /^name:\s*coding-standard$/m);
+  assert.match(frontmatter, /^description:\s*\S.+$/m);
+  assert.equal(body.trimEnd(), standard);
+});

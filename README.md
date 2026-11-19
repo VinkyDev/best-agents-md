@@ -20,6 +20,8 @@ We aim to be the shortest coding prompt with the biggest impact, and to keep evo
 
 ## Usage
 
+### 1. Install into `AGENTS.md` via CLI
+
 Run this in your project directory with Node.js 18 or later:
 
 ```sh
@@ -28,12 +30,23 @@ npx best-agents-md
 
 It adds the standard to `AGENTS.md` in a marked block and leaves the rest of the file untouched. Run it again to update to the latest version.
 
-You can also copy [AGENTS.md](AGENTS.md) into your project by hand.
+### 2. Copy into `AGENTS.md` manually
+
+Copy [AGENTS.md](AGENTS.md) into your project's `AGENTS.md` by hand.
+
+### 3. Install as an Agent Skill
+
+Install with the [skills](https://skills.sh) CLI:
+
+```sh
+npx skills add VinkyDev/best-agents-md
+```
 
 ## Read the standard
 
 - [AGENTS.md](AGENTS.md): the English standard that agents read
 - [AGENTS.zh.md](AGENTS.zh.md): a Chinese translation for readers
+- [skills/coding-standard/SKILL.md](skills/coding-standard/SKILL.md): the Agent Skill package for `skills` CLI
 
 ## Contributing
 
